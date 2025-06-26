@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/users/create
+Content-Type: application/json
+
+{
+    "name": "Harshit Kumar",
+    "username": "harshitkumar024",
+    "email": "kharshit020@gmail.com",
+    "password": "password123",
+    "isAdmin": true
+}
